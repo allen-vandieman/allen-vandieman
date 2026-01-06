@@ -32,11 +32,11 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          if git status --porcelain | grep -E 'img/(top-langs|public-repos)\.svg'; then
+          if git status --porcelain | grep -E 'img/(top-langs|public-repos|stars|github-stats)\.svg'; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add img/top-langs.svg img/public-repos.svg
-            git commit -m "chore: update top-langs and public-repos svgs"
+            git add img/top-langs.svg img/public-repos.svg img/stars.svg img/github-stats.svg
+            git commit -m "chore: update top-langs, public-repos, stars, and github-stats svgs"
             git push
           else
             echo "No changes to commit"

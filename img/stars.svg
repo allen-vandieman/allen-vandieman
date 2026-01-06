@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20">
+  <rect width="80" height="20" fill="#555" rx="3"/>
+  <rect x="80" width="50" height="20" fill="#007ec6" rx="3"/>
+  <style>text{font-family:Arial, Helvetica, sans-serif; font-size:11px; fill:#fff}</style>
+  <text x="40.0" y="14" text-anchor="middle">Stars</text>
+  <text x="105.0" y="14" text-anchor="middle">0</text>
+</svg>

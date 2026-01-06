@@ -18,11 +18,8 @@ I am a student with a keen interest in software development and technology. Base
 
 ## GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=allen-vandieman&show_icons=true&theme=radical)
+[![GitHub Stats](img/github-stats.svg)](https://github.com/allen-vandieman)
 
-[![Followers](https://img.shields.io/github/followers/allen-vandieman?label=Followers&style=social)](https://github.com/allen-vandieman?tab=followers)
-[![Stars](https://img.shields.io/github/stars/allen-vandieman?style=social)](https://github.com/allen-vandieman?tab=repositories)
-[![Public Repos](img/public-repos.svg)](https://github.com/allen-vandieman?tab=repositories)
 
 [![Top Languages](img/top-langs.svg)](https://github.com/allen-vandieman)
 
