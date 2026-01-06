@@ -1,0 +1,43 @@
+name: Generate Top Languages SVG
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # daily at 06:00 UTC
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip requests
+
+      - name: Generate top-langs SVG
+        run: |
+          python scripts/generate_toplangs.py --username allen-vandieman --output img/top-langs.svg
+
+      - name: Commit and push if changed
+        run: |
+          if git status --porcelain | grep -E 'img/(top-langs|public-repos)\.svg'; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add img/top-langs.svg img/public-repos.svg
+            git commit -m "chore: update top-langs and public-repos svgs"
+            git push
+          else
+            echo "No changes to commit"
+          fi
