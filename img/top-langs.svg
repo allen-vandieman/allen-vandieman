@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="564" height="152" viewBox="0 0 564 152">
 <style>text{font-family:Arial, Helvetica, sans-serif; font-size:12px; fill:#333}</style>
-<text x="60" y="24">JavaScript</text>
-<text x="554" y="24" text-anchor="end">72.1%</text>
-<rect x="160" y="10" width="255" height="14" fill="#f1e05a" rx="3"/>
-<text x="60" y="46">Java</text>
-<text x="554" y="46" text-anchor="end">23.5%</text>
-<rect x="160" y="32" width="83" height="14" fill="#b07219" rx="3"/>
+<text x="60" y="24">Java</text>
+<text x="554" y="24" text-anchor="end">48.5%</text>
+<rect x="160" y="10" width="171" height="14" fill="#b07219" rx="3"/>
+<text x="60" y="46">JavaScript</text>
+<text x="554" y="46" text-anchor="end">48.5%</text>
+<rect x="160" y="32" width="171" height="14" fill="#f1e05a" rx="3"/>
 <text x="60" y="68">Python</text>
-<text x="520" y="68" text-anchor="start">2.8%</text>
-<rect x="160" y="54" width="9" height="14" fill="#3572A5" rx="3"/>
+<text x="520" y="68" text-anchor="start">1.9%</text>
+<rect x="160" y="54" width="6" height="14" fill="#3572A5" rx="3"/>
 <text x="60" y="90">Perl</text>
-<text x="520" y="90" text-anchor="start">1.0%</text>
-<rect x="160" y="76" width="3" height="14" fill="#6c757d" rx="3"/>
+<text x="520" y="90" text-anchor="start">0.7%</text>
+<rect x="160" y="76" width="2" height="14" fill="#6c757d" rx="3"/>
 <text x="60" y="112">HTML</text>
-<text x="520" y="112" text-anchor="start">0.4%</text>
-<rect x="160" y="98" width="1" height="14" fill="#e34c26" rx="3"/>
+<text x="520" y="112" text-anchor="start">0.3%</text>
+<rect x="160" y="98" width="0" height="14" fill="#e34c26" rx="3"/>
 <text x="60" y="134">GLSL</text>
-<text x="520" y="134" text-anchor="start">0.2%</text>
+<text x="520" y="134" text-anchor="start">0.1%</text>
 <rect x="160" y="120" width="0" height="14" fill="#6c757d" rx="3"/>
 </svg>
