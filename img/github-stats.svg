@@ -3,7 +3,7 @@
 <rect x="0" y="0" width="82" height="20" fill="#555" rx="3"/>
 <rect x="82" y="0" width="50" height="20" fill="#007ec6" rx="3"/>
 <text x="41.0" y="14" text-anchor="middle">Followers</text>
-<text x="107.0" y="14" text-anchor="middle">11</text>
+<text x="107.0" y="14" text-anchor="middle">12</text>
 <rect x="138" y="0" width="80" height="20" fill="#555" rx="3"/>
 <rect x="218" y="0" width="50" height="20" fill="#007ec6" rx="3"/>
 <text x="178.0" y="14" text-anchor="middle">Stars</text>
